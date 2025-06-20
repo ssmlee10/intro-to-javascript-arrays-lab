@@ -78,3 +78,19 @@ const foods = ['taco', 'pizza', 'tofu', 'cheeseburger'];
 foods.splice(1, 1, 'sushi', 'cupcake');
 
 console.log('Exercise 6 result:', foods);
+
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+
+const foods = ['taco', 'sushi', 'cupcake', 'tofu', 'cheeseburger'];
+const yummy = foods.slice(1, 3);
+
+console.log('Exercise 7 result:', yummy);
